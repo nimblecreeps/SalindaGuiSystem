@@ -82,9 +82,9 @@ public class ViewDiaries extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jbtnLoadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnLoadActionPerformed
+    private void jbtnLoadActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
          try{
             BufferedReader br = new BufferedReader(new FileReader("diaryData.txt"));
@@ -106,12 +106,12 @@ public class ViewDiaries extends javax.swing.JFrame {
         }catch(Exception e){
             
         }
-    }//GEN-LAST:event_jbtnLoadActionPerformed
+    }
 
-    private void jbtnCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnCloseActionPerformed
+    private void jbtnCloseActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         this.dispose();
-    }//GEN-LAST:event_jbtnCloseActionPerformed
+    }
 
     /**
      * @param args the command line arguments

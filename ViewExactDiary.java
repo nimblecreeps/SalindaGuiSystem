@@ -105,9 +105,9 @@ public class ViewExactDiary extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jLoadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLoadActionPerformed
+    private void jLoadActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         try{
         BufferedReader br = new BufferedReader(new FileReader("diaryData.txt"));
@@ -137,21 +137,21 @@ public class ViewExactDiary extends javax.swing.JFrame {
         } catch (Exception e) {
             e.printStackTrace();  
        }
-    }//GEN-LAST:event_jLoadActionPerformed
+    }
 
-    private void jCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCloseActionPerformed
+    private void jCloseActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         this.dispose();
-    }//GEN-LAST:event_jCloseActionPerformed
+    }
 
-    private void jInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jInputActionPerformed
+    private void jInputActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
     }//GEN-LAST:event_jInputActionPerformed
 
-    private void jClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jClearActionPerformed
+    private void jClearActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         jInput.setText("");
-    }//GEN-LAST:event_jClearActionPerformed
+    }
 
     /**
      * @param args the command line arguments

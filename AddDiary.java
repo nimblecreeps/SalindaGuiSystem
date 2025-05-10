@@ -111,14 +111,14 @@ public class AddDiary extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jTextIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextIdActionPerformed
+    private void jTextIdActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_jTextIdActionPerformed
+    }
 
-    private void jSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jSaveActionPerformed
+    private void jSaveActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         try{
             String id = jTextId.getText();
@@ -133,13 +133,13 @@ public class AddDiary extends javax.swing.JFrame {
         }catch(Exception e){
             System.out.println(e.getMessage());
         } 
-    }//GEN-LAST:event_jSaveActionPerformed
+    }
 
-    private void jCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCloseActionPerformed
+    private void jCloseActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         this.dispose();
         
-    }//GEN-LAST:event_jCloseActionPerformed
+    }
 
     /**
      * @param args the command line arguments

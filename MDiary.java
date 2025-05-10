@@ -89,31 +89,31 @@ public class MDiary extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void ExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitActionPerformed
+    private void ExitActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         System.exit(0);
-    }//GEN-LAST:event_ExitActionPerformed
+    }
 
-    private void ADActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ADActionPerformed
+    private void ADActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         AddDiary AD = new AddDiary();
         AD.setVisible(true);
         
-    }//GEN-LAST:event_ADActionPerformed
+    }
 
-    private void VDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VDActionPerformed
+    private void VDActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         ViewExactDiary VD = new ViewExactDiary();
         VD.setVisible(true);
-    }//GEN-LAST:event_VDActionPerformed
+    }
 
-    private void VADActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VADActionPerformed
+    private void VADActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         ViewDiaries VAD = new ViewDiaries();
         VAD.setVisible(true);
-    }//GEN-LAST:event_VADActionPerformed
+    }
 
     /**
      * @param args the command line arguments
